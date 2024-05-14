@@ -1,4 +1,5 @@
 import AuthForm from "@/components/AuthForm";
+import { getLoggedInUser } from "@/lib/actions/user.action";
 
 export default function Signup() {
   return (
